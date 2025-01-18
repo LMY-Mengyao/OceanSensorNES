@@ -17,7 +17,7 @@ git clone https://github.com/LMY-Mengyao/OceanSensorNES.git
 ```
 ## Testing the Optical Sensor (MAX86177)
 - Navigate to the optical-sensor branch.
-- Clone the repository and follow the instructions provided in the test documentation.
+- Clone the repository and follow the instructions provided in the test documentation(will update soon).
 ### Notes
 - Update your application’s configuration to reference the new board files if necessary.
 - Ensure your Zephyr project’s `CMakeLists.txt` or build configuration is aware of the additional board directory.
