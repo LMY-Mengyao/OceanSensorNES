@@ -1,0 +1,10 @@
+identifier: devoceansensor/nrf52840
+name: oceansensor_board
+vendor: nodic
+type: mcu
+arch: arm
+ram: 256
+flash: 1024
+toolchain:
+  - zephyr
+supported: []
