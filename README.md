@@ -14,12 +14,12 @@ First, clone the repository that contains the board design. Open your terminal a
 
 ```bash
 git clone https://github.com/LMY-Mengyao/OceanSensorNES.git
+```
 
-
-Update your application’s configuration to reference the new board files if necessary.
-Ensure your Zephyr project’s CMakeLists.txt or build configuration is aware of the additional board directory.
-For any changes to the board schematic or device tree, update the files in the boards/OceanSensorNES directory of your application accordingly.
-If you encounter issues, refer to the Zephyr documentation or the repository’s issues section for support.
-
+### Notes
+- Update your application’s configuration to reference the new board files if necessary.
+- Ensure your Zephyr project’s `CMakeLists.txt` or build configuration is aware of the additional board directory.
+- For any changes to the board schematic or device tree, update the files in the `boards/OceanSensorNES` directory of your application accordingly.
+- If you encounter issues, refer to the [Zephyr documentation](https://docs.zephyrproject.org/latest/) or the repository’s issues section for support.
 
 
